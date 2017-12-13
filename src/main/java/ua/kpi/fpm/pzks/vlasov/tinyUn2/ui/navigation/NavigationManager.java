@@ -9,9 +9,7 @@ import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.internal.Conventions;
 import com.vaadin.spring.navigator.SpringNavigator;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.app.security.SecurityUtils;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.Role;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.EmptyPageView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.dashboard.DashboardView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.storefront.StorefrontView;
 
@@ -64,6 +62,7 @@ public class NavigationManager extends SpringNavigator {
         }
 
        // navigateTo(SecurityUtils.isCurrentUserInRole(Role.ADMIN) ? DashboardView.class : StorefrontView.class);
+        navigateTo(EmptyPageView.class);
     }
 
     /**
