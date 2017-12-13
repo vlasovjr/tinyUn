@@ -18,10 +18,44 @@ import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.BasicEntity;
 
 import javax.annotation.PostConstruct;
 import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
 
+/**
+ * Base class for a CRUD (Create, read, update, delete) view.
+ * <p>
+ * The view has three states it can be in and the user can navigate between the
+ * states with the controls present:
+ * <ol>
+ * <li>Initial state
+ * <ul>
+ * <li>Form is disabled
+ * <li>Nothing is selected in grid
+ * </ul>
+ * <li>Adding an entity
+ * <ul>
+ * <li>Form is enabled
+ * <li>"Delete" has no function
+ * <li>"Discard" moves to the "Initial state"
+ * <li>"Save" creates the entity and moves to the "Updating an entity" state
+ * </ul>
+ * <li>Updating an entity
+ * <ul>
+ * <li>Entity highlighted in Grid
+ * <li>Form is enabled
+ * <li>"Delete" deletes the entity from the database
+ * <li>"Discard" resets the form contents to what is in the database
+ * <li>"Save" updates the entity and keeps the form open
+ * <li>"Save" and "Discard" are only enabled when changes have been made
+ * </ol>
+ *
+ * @param <T>
+ *            the type of entity which can be edited in the view
+ */
 public abstract class AbstractView <
         E extends BasicEntity,
-        D extends Component>
+        D extends Component,
+        P extends AbstractPresenter>
         implements Serializable, View, HasLogger{
 
     @Getter
@@ -34,7 +68,10 @@ public abstract class AbstractView <
 
     @Getter
     @Setter
-    private AbstractPresenter presenter;
+    private P presenter;
+
+    @Getter
+    List<Button> extraButton = new ArrayList<>();
 
     //Описывает названик кнопок
     public static final String CAPTION_DISCARD = "Discard";
@@ -45,6 +82,7 @@ public abstract class AbstractView <
     public void setDataProvider(DataProvider<E, Object> dataProvider) {
         getGrid().setDataProvider(dataProvider);
     }
+
     public D getViewComponent(){
         return design;
     }
@@ -84,6 +122,7 @@ public abstract class AbstractView <
 
     @PostConstruct
     private void initLogic() {
+        initExtraButton();
         getGrid().addSelectionListener(e -> {
             if (!e.isUserOriginated()) {
                 return;
@@ -104,6 +143,7 @@ public abstract class AbstractView <
         getCancel().addClickListener(event -> getPresenter().cancelClicked());
         getDelete().addClickListener(event -> getPresenter().deleteClicked());
         getAdd().addClickListener(event -> getPresenter().addNewClicked());
+        initExtraButtonClickListener();
         //getExtraEdit().addClickListener(event -> getPresenter().extraEdit());
 
         // Search functionality
@@ -140,6 +180,9 @@ public abstract class AbstractView <
     protected abstract Button getUpdate();
     protected abstract Button getCancel();
     protected abstract Button getDelete();
+
+    protected abstract void initExtraButton();
+    protected abstract void initExtraButtonClickListener();
 
     protected abstract TextField getSearch();
 

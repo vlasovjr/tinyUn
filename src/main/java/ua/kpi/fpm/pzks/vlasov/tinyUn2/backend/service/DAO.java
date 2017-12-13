@@ -16,9 +16,7 @@ import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.BasicEntity;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
-import java.io.Serializable;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @Transactional

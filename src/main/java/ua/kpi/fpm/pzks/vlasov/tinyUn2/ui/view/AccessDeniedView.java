@@ -1,10 +1,9 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view;
 
-import org.vaadin.spring.annotation.PrototypeScope;
-
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringComponent;
+import org.vaadin.spring.annotation.PrototypeScope;
 
 @SpringComponent
 @PrototypeScope
