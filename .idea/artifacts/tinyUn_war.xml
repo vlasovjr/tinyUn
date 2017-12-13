@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tinyUn:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="tinyUn-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tinyUn:war exploded" />
+    </root>
+  </artifact>
+</component>
