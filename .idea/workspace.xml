@@ -6,20 +6,66 @@
   <component name="ChangeListManager">
     <list default="true" id="068a5d34-f34f-4a5b-b450-742c054886eb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/ApplicationConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/ApplicationConfiguration.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/RedirectAuthenticationSuccessHandler.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/RedirectAuthenticationSuccessHandler.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityConfig.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityConfig.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityUtils.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityUtils.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/UserDetailsServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/UserDetailsServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/BasicEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/BasicEntity.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserExtraContactsService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserExtraContactsService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserService.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserService.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/AppUI.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/AppUI.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/ChartsTheme.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/ChartsTheme.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedDesign.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedDesign.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageDesign.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageDesign.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/AbstractCrudPresenter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/AbstractCrudView.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/RoleSelect.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/RoleSelect.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserPresenter.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserViewDesign.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserViewDesign.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsDataProvider.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsPresenter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.production.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.production.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsViewDesign.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsViewDesign.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.production.properties" afterPath="$PROJECT_DIR$/target/classes/application.production.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/ApplicationConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/ApplicationConfiguration.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/RedirectAuthenticationSuccessHandler.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/RedirectAuthenticationSuccessHandler.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityConfig.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityConfig.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityUtils.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityUtils.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/UserDetailsServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/UserDetailsServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/BasicEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/BasicEntity.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserExtraContactsService.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserExtraContactsService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserService.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/UserService.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/EmptyPageView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/AbstractCrudPresenter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/AbstractCrudView.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserPresenter.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserPresenter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView$1.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView$1.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsDataProvider.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsDataProvider.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsPresenter.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsPresenter.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,21 +92,31 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AdminUserView.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="AdminUserView.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="669">
-                  <caret line="156" column="65" lean-forward="false" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="65" />
+                <state relative-caret-position="1428">
+                  <caret line="150" column="65" lean-forward="false" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="65" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="method#AdminUserView#0;class#AdminUserView#0" expanded="false" />
                     <element signature="method#init#0;class#AdminUserView#0" expanded="false" />
                     <element signature="docComment;field#passwordValidator#0;class#AdminUserView#0" expanded="false" />
-                    <element signature="class#2344:2946" expanded="false" />
+                    <element signature="class#2248:2850" expanded="false" />
                     <element signature="method#bindFormFields#0;class#AdminUserView#0" expanded="false" />
-                    <element signature="e#3862#3863#0" expanded="true" />
-                    <element signature="e#3908#3909#0" expanded="true" />
+                    <element signature="e#3766#3767#0" expanded="true" />
+                    <element signature="e#3812#3813#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AdminUserViewDesign.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserViewDesign.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="23" selection-end-column="31" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -68,9 +124,10 @@
           <file leaf-file-name="AbstractView.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
+                <state relative-caret-position="34">
                   <caret line="53" column="3" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
                   <folding>
+                    <element signature="imports" expanded="true" />
                     <element signature="e#2488#2489#0" expanded="true" />
                     <element signature="e#2543#2544#0" expanded="true" />
                     <element signature="e#2577#2578#0" expanded="true" />
@@ -88,6 +145,83 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="ConfirmDialogFactory.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="EditUserExtraContactsView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="879">
+                  <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+                  <folding>
+                    <element signature="method#EditUserExtraContactsView#0;class#EditUserExtraContactsView#0" expanded="false" />
+                    <element signature="e#2276#2277#0" expanded="true" />
+                    <element signature="e#2316#2317#0" expanded="true" />
+                    <element signature="method#bindFormFields#0;class#EditUserExtraContactsView#0" expanded="false" />
+                    <element signature="e#2626#2627#0" expanded="true" />
+                    <element signature="e#2682#2683#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AppUI.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/AppUI.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ChartsTheme.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/ChartsTheme.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainView.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="833">
+                  <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MainViewDesign.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="357">
+                  <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConfirmPopup.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -96,7 +230,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="703">
-                  <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="80" />
+                  <caret line="86" column="31" lean-forward="false" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="80" />
                   <folding>
                     <element signature="method#updateViewParameter#0;class#NavigationManager#0" expanded="false" />
                   </folding>
@@ -303,7 +437,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tinyUn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tinyUn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
@@ -641,12 +794,12 @@
       <workItem from="1512981032411" duration="13441000" />
       <workItem from="1513126633975" duration="670000" />
       <workItem from="1513133721167" duration="35972000" />
-      <workItem from="1513177139712" duration="5680000" />
+      <workItem from="1513177139712" duration="5941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96577000" />
+    <option name="totallyTimeSpent" value="96838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
@@ -677,6 +830,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22007722" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6068013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -684,7 +838,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32837406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -698,7 +851,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>202</line>
+          <line>201</line>
           <properties class="ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractPresenter" method="revertToInitialState">
             <option name="EMULATED" value="true" />
           </properties>
@@ -706,7 +859,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>268</line>
+          <line>267</line>
           <properties class="ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractPresenter" method="cancelClicked">
             <option name="EMULATED" value="true" />
           </properties>
@@ -714,7 +867,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>276</line>
+          <line>275</line>
           <properties class="ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractPresenter" method="deleteClicked">
             <option name="EMULATED" value="true" />
           </properties>
@@ -722,49 +875,49 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java</url>
-          <line>66</line>
+          <line>64</line>
           <properties />
           <option name="timeStamp" value="73" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java</url>
-          <line>71</line>
+          <line>69</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>24</line>
+          <line>23</line>
           <properties />
           <option name="timeStamp" value="76" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>203</line>
+          <line>202</line>
           <properties />
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>269</line>
+          <line>268</line>
           <properties />
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java</url>
-          <line>277</line>
+          <line>276</line>
           <properties />
           <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java</url>
-          <line>68</line>
+          <line>66</line>
           <properties />
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DAO.java</url>
-          <line>70</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="121" />
         </line-breakpoint>
@@ -804,21 +957,6 @@
     <option name="serverPort" value="60700" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/8.1.7/vaadin-server-8.1.7.jar!/com/vaadin/navigator/Navigator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="83" column="16" lean-forward="false" selection-start-line="83" selection-start-column="16" selection-end-line="83" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/8.1.7/vaadin-server-8.1.7.jar!/com/vaadin/navigator/ViewChangeListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="22" column="29" lean-forward="false" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserExtraContactsViewDesign.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/SecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -832,6 +970,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -991,30 +1130,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/AppUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/ChartsTheme.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="24" column="35" lean-forward="true" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/AccessDeniedDesign.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1027,14 +1142,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="65" column="80" lean-forward="false" selection-start-line="65" selection-start-column="80" selection-end-line="65" selection-end-column="80" />
           <folding />
         </state>
       </provider>
@@ -1073,7 +1180,7 @@
         <state relative-caret-position="221">
           <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1099,13 +1206,13 @@
         <state relative-caret-position="391">
           <caret line="23" column="52" lean-forward="false" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1215#1216#0" expanded="true" />
-            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#688#689#0" expanded="false" />
+            <element signature="e#733#734#0" expanded="false" />
+            <element signature="e#761#762#0" expanded="false" />
+            <element signature="e#821#822#0" expanded="false" />
+            <element signature="e#851#852#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1115,17 +1222,9 @@
         <state relative-caret-position="204">
           <caret line="12" column="70" lean-forward="false" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
           <folding>
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
+            <element signature="e#1219#1220#0" expanded="false" />
+            <element signature="e#1276#1277#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserViewDesign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="57" lean-forward="true" selection-start-line="22" selection-start-column="57" selection-end-line="23" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1145,28 +1244,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="90" column="0" lean-forward="true" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
-          <folding>
-            <element signature="method#EditUserExtraContactsView#0;class#EditUserExtraContactsView#0" expanded="false" />
-            <element signature="e#2276#2277#0" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="method#bindFormFields#0;class#EditUserExtraContactsView#0" expanded="false" />
-            <element signature="e#2626#2627#0" expanded="true" />
-            <element signature="e#2682#2683#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="35" column="29" lean-forward="false" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
           <folding>
-            <element signature="e#1460#1461#0" expanded="true" />
-            <element signature="e#1496#1497#0" expanded="true" />
+            <element signature="e#1437#1438#0" expanded="false" />
+            <element signature="e#1473#1474#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1189,8 +1273,8 @@
             <element signature="method#editItem#0;class#AbstractPresenter#0" expanded="false" />
             <element signature="method#createEntity#0;class#AbstractPresenter#0" expanded="false" />
             <element signature="method#deleteEntity#0;class#AbstractPresenter#0" expanded="false" />
-            <element signature="e#11166#11167#0" expanded="true" />
-            <element signature="e#11197#11198#0" expanded="true" />
+            <element signature="e#11144#11145#0" expanded="false" />
+            <element signature="e#11175#11176#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1211,11 +1295,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="150" column="65" lean-forward="false" selection-start-line="150" selection-start-column="50" selection-end-line="150" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#AdminUserView#0;class#AdminUserView#0" expanded="false" />
+            <element signature="method#init#0;class#AdminUserView#0" expanded="false" />
+            <element signature="docComment;field#passwordValidator#0;class#AdminUserView#0" expanded="false" />
+            <element signature="class#2248:2850" expanded="false" />
+            <element signature="method#bindFormFields#0;class#AdminUserView#0" expanded="false" />
+            <element signature="e#3766#3767#0" expanded="true" />
+            <element signature="e#3812#3813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="86" column="31" lean-forward="false" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="80" />
+          <folding>
+            <element signature="method#updateViewParameter#0;class#NavigationManager#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
+        <state relative-caret-position="34">
           <caret line="53" column="3" lean-forward="false" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#2488#2489#0" expanded="true" />
             <element signature="e#2543#2544#0" expanded="true" />
             <element signature="e#2577#2578#0" expanded="true" />
@@ -1232,30 +1344,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserView.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmPopup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="156" column="65" lean-forward="false" selection-start-line="156" selection-start-column="50" selection-end-line="156" selection-end-column="65" />
+        <state relative-caret-position="102">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/components/ConfirmDialogFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserViewDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="57" lean-forward="false" selection-start-line="22" selection-start-column="57" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/user/extra/contacts/EditUserExtraContactsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="879">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#AdminUserView#0;class#AdminUserView#0" expanded="false" />
-            <element signature="method#init#0;class#AdminUserView#0" expanded="false" />
-            <element signature="docComment;field#passwordValidator#0;class#AdminUserView#0" expanded="false" />
-            <element signature="class#2344:2946" expanded="false" />
-            <element signature="method#bindFormFields#0;class#AdminUserView#0" expanded="false" />
-            <element signature="e#3862#3863#0" expanded="true" />
-            <element signature="e#3908#3909#0" expanded="true" />
+            <element signature="method#EditUserExtraContactsView#0;class#EditUserExtraContactsView#0" expanded="false" />
+            <element signature="e#2276#2277#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="method#bindFormFields#0;class#EditUserExtraContactsView#0" expanded="false" />
+            <element signature="e#2626#2627#0" expanded="true" />
+            <element signature="e#2682#2683#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/AppUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="80" />
-          <folding>
-            <element signature="method#updateViewParameter#0;class#NavigationManager#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/ChartsTheme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainViewDesign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -3,7 +3,6 @@ package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
 import com.vaadin.spring.annotation.SpringView;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.AccessDeniedView;
 
 @SpringView(name = "")
 public class EmptyPageView extends EmptyPageDesign implements View {

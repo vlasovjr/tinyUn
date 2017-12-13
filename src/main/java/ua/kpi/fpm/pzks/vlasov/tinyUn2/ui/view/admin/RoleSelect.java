@@ -1,7 +1,7 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin;
 
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.Role;
 import com.vaadin.ui.ComboBox;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.Role;
 
 public class RoleSelect extends ComboBox<String> {
 

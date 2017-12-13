@@ -1,16 +1,14 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation;
 
 
-import org.springframework.stereotype.Component;
-
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.internal.Conventions;
 import com.vaadin.spring.navigator.SpringNavigator;
+import org.springframework.stereotype.Component;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.EmptyPageView;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts.EditUserExtraContactsView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.dashboard.DashboardView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.storefront.StorefrontView;
 

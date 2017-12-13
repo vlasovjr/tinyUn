@@ -6,22 +6,16 @@ import com.vaadin.data.Validator;
 import com.vaadin.data.ValueContext;
 import com.vaadin.data.validator.BeanValidator;
 import com.vaadin.spring.annotation.SpringView;
-import com.vaadin.ui.Component.Focusable;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.TextField;
-
 import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.annotation.PostConstruct;
-
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts.EditUserExtraContactsView;
 
-import java.util.ArrayList;
-import java.util.List;
+import javax.annotation.PostConstruct;
 
 
 @SpringView(name="UserControlPanel")

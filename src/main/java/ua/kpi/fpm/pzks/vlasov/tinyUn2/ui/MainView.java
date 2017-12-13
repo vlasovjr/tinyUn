@@ -8,15 +8,13 @@ import com.vaadin.spring.annotation.SpringViewDisplay;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.UI;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.AdminUserView;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
-
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.AdminUserView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.product.ProductAdminView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.UserAdminView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.dashboard.DashboardView;

@@ -1,17 +1,16 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.app.security;
 
-import java.util.Collections;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
-
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserExtraContactsService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserService;
+
+import java.util.Collections;
 
 //import com.gmail.t.backend.data.entity.User;
 //import com.gmail.t.backend.service.UserService;

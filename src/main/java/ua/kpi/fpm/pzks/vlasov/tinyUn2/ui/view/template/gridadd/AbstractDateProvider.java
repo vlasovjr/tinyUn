@@ -11,7 +11,6 @@ import org.vaadin.artur.spring.dataprovider.FilterablePageableDataProvider;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.BasicEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.DAO;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.ArrayList;
 import java.util.List;
 
