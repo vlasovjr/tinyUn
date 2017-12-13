@@ -3,6 +3,7 @@ package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -16,33 +17,25 @@ import com.vaadin.spring.annotation.SpringComponent;
 
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserService;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractDateProvider;
 
 @SpringComponent
 @PrototypeScope
-public class AdminUserDataProvider extends FilterablePageableDataProvider<UserEntity, Object> {
-
-    private final UserService userService;
+public class AdminUserDataProvider extends AbstractDateProvider<UserEntity, UserService> {
 
     @Autowired
     public AdminUserDataProvider(UserService userService) {
-        this.userService = userService;
+        setService(userService);
     }
 
     @Override
-    protected Page<UserEntity> fetchFromBackEnd(Query<UserEntity, Object> query, Pageable pageable) {
-        return userService.findAnyMatching(getOptionalFilter(), pageable, "login");
+    public boolean isChild(){
+        return false;
     }
 
     @Override
-    protected int sizeInBackEnd(Query<UserEntity, Object> query) {
-        return (int) userService.countAnyMatching(getOptionalFilter(),"login");
-    }
-
-    @Override
-    protected List<QuerySortOrder> getDefaultSortOrders() {
-        List<QuerySortOrder> sortOrders = new ArrayList<>();
-        sortOrders.add(new QuerySortOrder("login", SortDirection.ASCENDING));
-        return sortOrders;
+    protected String getDefaultColumnName(){
+        return "login";
     }
 
 }

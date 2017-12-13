@@ -10,6 +10,7 @@ import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.internal.Conventions;
 import com.vaadin.spring.navigator.SpringNavigator;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.EmptyPageView;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts.EditUserExtraContactsView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.dashboard.DashboardView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.storefront.StorefrontView;
 
@@ -83,6 +84,10 @@ public class NavigationManager extends SpringNavigator {
         }
 
         updateNavigationState(new ViewChangeEvent(this, getCurrentView(), getCurrentView(), viewName, parameters));
+    }
+
+    public void navigateToChild(Class<? extends View> targetView, int entityId){
+
     }
 
 }

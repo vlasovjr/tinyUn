@@ -19,7 +19,8 @@ import java.util.List;
 
 @SpringComponent
 @PrototypeScope
-public class EditUserExtraContactsDataProvider extends AbstractDateProvider<UserExtraContactsEntity, UserExtraContactsService> {
+public class EditUserExtraContactsDataProvider extends AbstractDateProvider<
+        UserExtraContactsEntity, UserExtraContactsService> {
 
     @Autowired
     public EditUserExtraContactsDataProvider(UserExtraContactsService userExtraContactsService){

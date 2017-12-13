@@ -34,6 +34,5 @@ public class EditUserExtraContactsPresenter extends AbstractPresenter<
     @Override
     protected void editItem(UserExtraContactsEntity item){
         super.editItem(item);
-        //
     }
 }

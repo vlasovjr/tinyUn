@@ -28,6 +28,7 @@ public abstract class AbstractPresenter<
         V extends AbstractView> //View
         implements HasLogger, Serializable{
 
+    @Getter
     private final NavigationManager navigationManager;
     @Getter private final S service;
     @Getter private final Class<E> entityType;
@@ -297,6 +298,10 @@ public abstract class AbstractPresenter<
             editItem(entity);
         }, () -> {
         });
+    }
+
+    public E getSelectedItem(){
+        return editItem;
     }
 
     protected void filterGrid(String filter) {

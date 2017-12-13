@@ -11,17 +11,26 @@ import com.vaadin.spring.annotation.ViewScope;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.AbstractCrudPresenter;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractPresenter;
 
 @SpringComponent
 @ViewScope
-public class AdminUserPresenter extends AbstractCrudPresenter<UserEntity, UserService, AdminUserView>
-        implements Serializable {
+public class AdminUserPresenter extends AbstractPresenter<
+        UserEntity,
+        UserService,
+        AdminUserView> {
 
     @Autowired
-    public AdminUserPresenter(AdminUserDataProvider userAdminDataProvider, NavigationManager navigationManager,
-                              UserService service, BeanFactory beanFactory) {
-        super(navigationManager, service, UserEntity.class, userAdminDataProvider, beanFactory);
+    public AdminUserPresenter(AdminUserDataProvider userAdminDataProvider,
+                              NavigationManager navigationManager,
+                              UserService service,
+                              BeanFactory beanFactory) {
+        super(
+                navigationManager,
+                service,
+                UserEntity.class,
+                userAdminDataProvider,
+                beanFactory);
     }
 
     public String encodePassword(String value) {
