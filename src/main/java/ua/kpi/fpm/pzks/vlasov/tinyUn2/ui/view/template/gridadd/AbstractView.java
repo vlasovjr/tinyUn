@@ -144,6 +144,11 @@ public abstract class AbstractView <
         getDelete().addClickListener(event -> getPresenter().deleteClicked());
         getAdd().addClickListener(event -> getPresenter().addNewClicked());
         initExtraButtonClickListener();
+
+        if(getBackward()!= null){
+            getBackward().addClickListener(event -> getPresenter().backwardClicked());
+        }
+
         //getExtraEdit().addClickListener(event -> getPresenter().extraEdit());
 
         // Search functionality
@@ -180,6 +185,7 @@ public abstract class AbstractView <
     protected abstract Button getUpdate();
     protected abstract Button getCancel();
     protected abstract Button getDelete();
+    protected abstract Button getBackward();
 
     protected abstract void initExtraButton();
     protected abstract void initExtraButtonClickListener();

@@ -82,6 +82,11 @@ public class EditUserExtraContactsView extends AbstractView
     }
 
     @Override
+    protected Button getBackward() {
+        return getViewComponent().getBackward;
+    }
+
+    @Override
     protected void initExtraButton() {
         getExtraButton().clear();
     }

@@ -14,7 +14,8 @@ public class UserExtraContactsService extends DAO<UserExtraContactsEntity>{
 
     public List<UserExtraContactsEntity> findByUserId(int id){
         List<UserExtraContactsEntity> list;
-        list = findAllBy("user_iduser", Integer.toString(id));
+        list = findAllBy("userIduser", Integer.toString(id));
+
         return list;
     }
 

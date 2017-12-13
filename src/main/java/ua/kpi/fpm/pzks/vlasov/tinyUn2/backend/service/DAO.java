@@ -1,9 +1,12 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service;
 
 import lombok.Getter;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
+
+import org.hibernate.query.criteria.internal.path.RootImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.GenericTypeResolver;
 import org.springframework.data.domain.Page;
@@ -22,6 +25,7 @@ import java.util.Optional;
 @Transactional
 @Repository
 public class DAO<T extends BasicEntity>{
+//public class DAO<T>{
 
     @Autowired
     protected SessionFactory sessionFactory;
@@ -40,17 +44,13 @@ public class DAO<T extends BasicEntity>{
 
        // sessionFactory.getCurrentSession().sa
 
-        if(entity.getEntityId()==0) {
-          //  Object o = sessionFactory.getCurrentSession().save(entity);
-         //   sessionFactory.getCurrentSession().beginTransaction();
-         //   Integer i = (Integer) sessionFactory.getCurrentSession().save(entity);
-          //  sessionFactory.getCurrentSession().getTransaction().commit();
-          sessionFactory.getCurrentSession().saveOrUpdate(entity);
-            return entity;
-        }
-        else
-            sessionFactory.getCurrentSession().update(entity);
-        return entity;
+//        if(entity.getEntityId()==0) {
+        sessionFactory.getCurrentSession().saveOrUpdate(entity);
+           return entity;
+ //       }
+ //       else
+ //           sessionFactory.getCurrentSession().update(entity);
+ //       return entity;
     }
 
     @Transactional
@@ -96,14 +96,14 @@ public class DAO<T extends BasicEntity>{
     }
 
     @Transactional
-    public List<T> findAllBy(String columnName, String s){
+    public List<T> findAllBy(String columnName, Object o){
         final Session session = sessionFactory.getCurrentSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(getInterfaceClass());
         Root<T> root = query.from(getInterfaceClass());
-        query.select(root).where(builder.like(root.get(columnName),s));
+        query.select(root).where(builder.equal(root.get(columnName),o));
         Query<T> q=session.createQuery(query);
-        List<T> list=q.getResultList();
+        List<T> list=q.list();
         return list;
     } /**/
 
@@ -124,16 +124,9 @@ public class DAO<T extends BasicEntity>{
     }    //@Override
 
     public Page<T> findAnyMatching(Optional<String> filter, Pageable pageable, String columnName, int fatherId) {
-        if (filter.isPresent()) {
-            String repositoryFilter = "%" + filter.get() + "%";
-            List<T> list = findAllBy(columnName, filter.get());
-            Page<T> p = new PageImpl<T>(list, pageable, list.size());
-            return p;
-        } else {
-            List<T> list = getAll();
-            Page<T> p = new PageImpl<T>(list, pageable, list.size());
-            return p;
-        }
+        List<T> list = findAllBy(columnName, String.valueOf(fatherId));
+        Page<T> p = new PageImpl<T>(list, pageable, list.size());
+        return p;
     }
 
     // @Override
@@ -152,13 +145,8 @@ public class DAO<T extends BasicEntity>{
     // @Override
 
     public long countAnyMatching(Optional<String> filter, String columnName, int fatherId) {
-        if (filter.isPresent()) {
-            String repositoryFilter = "%" + filter.get() + "%";
-            List<T> list = findAllBy(columnName, filter.get());
-            return list.size();
-        } else {
-            List<T> list = getAll();//findAllBy("login", filter.get());
-            return list.size();
-        }
+        System.out.println("\n \tinfo get "+columnName+" id= "+fatherId);
+        List<T> list = findAllBy(columnName, String.valueOf(fatherId));
+        return list.size();
     }
 }

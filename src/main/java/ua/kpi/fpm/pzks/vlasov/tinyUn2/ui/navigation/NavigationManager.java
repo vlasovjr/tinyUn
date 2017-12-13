@@ -38,7 +38,7 @@ public class NavigationManager extends SpringNavigator {
     /**
      * Navigate to the given view class.
      *
-     * @param viewClass
+     * @param targetView
      *            the class of the target view, must be annotated using
      *            {@link SpringView @SpringView}
      */
@@ -84,8 +84,22 @@ public class NavigationManager extends SpringNavigator {
         updateNavigationState(new ViewChangeEvent(this, getCurrentView(), getCurrentView(), viewName, parameters));
     }
 
-    public void navigateToChild(Class<? extends View> targetView, int entityId){
+    private String backward = null;
+    private int entityId = -1;
 
+    public void navigateToChild(Class<? extends View> targetView, int entityId){
+        this.backward = this.getState();
+        this.entityId = entityId;
+        String viewId = getViewId(targetView);
+        navigateTo(viewId + "/");
+    }
+
+    public void navigateToBackward(){
+        navigateTo(backward);
+    }
+
+    public int getCurrentEntityId(){
+        return entityId;
     }
 
 }

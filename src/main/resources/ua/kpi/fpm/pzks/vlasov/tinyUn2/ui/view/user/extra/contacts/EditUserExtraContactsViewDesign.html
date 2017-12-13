@@ -6,57 +6,60 @@
   <meta name="vaadin-version" content="8.0.5">
  </head>
  <body>
- <vaadin-vertical-layout style-name="crud-template" spacing="false" size-full margin="false">
-  <vaadin-css-layout style-name="content" size-full :expand>
-   <vaadin-css-layout style-name="list" size-full>
-    <vaadin-grid id="list" size-full data-item-type="ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserExtraContactsEntity" _id="list">
-     <table>
-      <colgroup>
-       <col column-id="type" sortable>
-       <col column-id="contact" sortable>
-       <col column-id="visibility" sortable>
-      </colgroup>
-      <thead>
-      <tr default>
-       <th plain-text column-ids="type">Type</th>
-       <th plain-text column-ids="contact">Contact</th>
-       <th plain-text column-ids="visibility">Visibility</th>
-      </tr>
-      </thead>
-      <tbody></tbody>
-     </table>
-    </vaadin-grid>
-   </vaadin-css-layout>
-   <vaadin-vertical-layout style-name="inspect" spacing="false" id="tmp_form1" size-full margin="false" _id="tmp_form1">
-    <vaadin-button icon="fonticon://FontAwesome/f067" style-name="borderless" id="add" width-full height="31px" plain-text _id="add">
-     Add new
-    </vaadin-button>
-    <vaadin-vertical-layout enabled="false" spacing="false" id="extra_form" size-full margin="false" _id="form" :expand>
-     <vaadin-css-layout style-name="edit" size-full>
-      <vaadin-css-layout style-name="section half" width-full>
-       <vaadin-text-field caption="type" style-name="small" id="type" width-full height="31px" _id="type"></vaadin-text-field>
+  <vaadin-vertical-layout style-name="crud-template" spacing="false" size-full margin="false">
+   <vaadin-css-layout style-name="content" size-full :expand>
+    <vaadin-css-layout style-name="list" size-full>
+     <vaadin-grid id="list" size-full data-item-type="ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserExtraContactsEntity" _id="list">
+      <table>
+       <colgroup>
+        <col column-id="type" sortable>
+        <col column-id="contact" sortable>
+        <col column-id="visibility" sortable>
+       </colgroup>
+       <thead>
+        <tr default>
+         <th plain-text column-ids="type">Type</th>
+         <th plain-text column-ids="contact">Contact</th>
+         <th plain-text column-ids="visibility">Visibility</th>
+        </tr>
+       </thead>
+       <tbody></tbody>
+      </table>
+     </vaadin-grid>
+    </vaadin-css-layout>
+    <vaadin-vertical-layout style-name="inspect" spacing="false" id="tmp_form1" size-full margin="false" _id="tmp_form1">
+     <vaadin-button icon="fonticon://FontAwesome/f067" style-name="borderless" id="add" width-full height="31px" plain-text _id="add">
+       Add new 
+     </vaadin-button>
+     <vaadin-button id="getBackward" plain-text _id="getBackward">
+       getBackward 
+     </vaadin-button>
+     <vaadin-vertical-layout enabled="false" spacing="false" id="extra_form" size-full margin="false" _id="form" :expand>
+      <vaadin-css-layout style-name="edit" size-full>
+       <vaadin-css-layout style-name="section half" width-full>
+        <vaadin-text-field caption="type" style-name="small" id="type" width-full height="31px" _id="type"></vaadin-text-field>
+       </vaadin-css-layout>
+       <vaadin-css-layout style-name="section half" width-full>
+        <vaadin-text-field caption="contact" style-name="small" id="contact" width-full height="31px" _id="contact"></vaadin-text-field>
+       </vaadin-css-layout>
+       <vaadin-css-layout style-name="section half" width-full>
+        <vaadin-text-field caption="visibility" style-name="small" id="visibility" width-full height="31px" _id="visibility"></vaadin-text-field>
+       </vaadin-css-layout>
       </vaadin-css-layout>
-      <vaadin-css-layout style-name="section half" width-full>
-       <vaadin-text-field caption="contact" style-name="small" id="contact" width-full height="31px" _id="contact"></vaadin-text-field>
-      </vaadin-css-layout>
-      <vaadin-css-layout style-name="section half" width-full>
-       <vaadin-text-field caption="visibility" style-name="small" id="visibility" width-full height="31px" _id="visibility"></vaadin-text-field>
-      </vaadin-css-layout>
-     </vaadin-css-layout>
-     <vaadin-horizontal-layout style-name="buttons border-top" width-full height="50px">
-      <vaadin-button style-name="small primary" id="extra_update" plain-text _id="update" :middle>
-       Update
-      </vaadin-button>
-      <vaadin-button style-name="small" id="extra_cancel" plain-text _id="cancel" :middle :center>
-       Cancel
-      </vaadin-button>
-      <vaadin-button style-name="small danger" id="extra_delete" plain-text _id="delete" :middle :right :expand>
-       Delete
-      </vaadin-button>
-     </vaadin-horizontal-layout>
+      <vaadin-horizontal-layout style-name="buttons border-top" width-full height="50px">
+       <vaadin-button style-name="small primary" id="extra_update" plain-text _id="update" :middle>
+         Update 
+       </vaadin-button>
+       <vaadin-button style-name="small" id="extra_cancel" plain-text _id="cancel" :middle :center>
+         Cancel 
+       </vaadin-button>
+       <vaadin-button style-name="small danger" id="extra_delete" plain-text _id="delete" :middle :right :expand>
+         Delete 
+       </vaadin-button>
+      </vaadin-horizontal-layout>
+     </vaadin-vertical-layout>
     </vaadin-vertical-layout>
-   </vaadin-vertical-layout>
-  </vaadin-css-layout>
- </vaadin-vertical-layout>
+   </vaadin-css-layout>
+  </vaadin-vertical-layout>
  </body>
 </html>

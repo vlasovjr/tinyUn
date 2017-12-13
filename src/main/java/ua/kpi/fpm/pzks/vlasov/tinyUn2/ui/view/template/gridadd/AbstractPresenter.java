@@ -299,6 +299,10 @@ public abstract class AbstractPresenter<
         });
     }
 
+    public void backwardClicked(){
+        navigationManager.navigateToBackward();
+    }
+
     public E getSelectedItem(){
         return editItem;
     }

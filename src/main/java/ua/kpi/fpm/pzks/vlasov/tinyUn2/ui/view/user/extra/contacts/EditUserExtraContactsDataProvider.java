@@ -16,11 +16,11 @@ public class EditUserExtraContactsDataProvider extends AbstractDateProvider<
     @Autowired
     public EditUserExtraContactsDataProvider(UserExtraContactsService userExtraContactsService){
         setService(userExtraContactsService);
-        setChild(false);
+        //setChild(false);
     }
 
     @Override
     protected String getDefaultColumnName() {
-        return "contact";
+        return "userIduser";
     }
 }

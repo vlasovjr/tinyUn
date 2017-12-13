@@ -10,6 +10,8 @@ import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserExtraContactsService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.AppUI;
 
+import javax.persistence.Entity;
+
 @SpringBootApplication(scanBasePackageClasses = {
         AppUI.class,
         Application.class,

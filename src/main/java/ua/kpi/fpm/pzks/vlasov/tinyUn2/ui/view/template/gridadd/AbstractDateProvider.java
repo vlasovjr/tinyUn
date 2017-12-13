@@ -22,14 +22,15 @@ public abstract class AbstractDateProvider<E extends BasicEntity, S extends DAO<
 
     @Getter
     @Setter
-    private boolean isChild;
+    private boolean isChild = false;
 
     @Setter
     @Getter
-    private int fatherId;
+    private int fatherId = -1;
 
     @Override
     protected Page<E> fetchFromBackEnd(Query<E, Object> query, Pageable pageable) {
+        System.out.println("gate page" + isChild + " "+fatherId);
         if(isChild)
             return getService().findAnyMatching(getOptionalFilter(), pageable,getDefaultColumnName(),getFatherId());
         else

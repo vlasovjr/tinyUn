@@ -146,6 +146,11 @@ public class AdminUserView extends AbstractView<UserEntity, AdminUserViewDesign,
     }
 
     @Override
+    protected Button getBackward(){
+        return null;
+    }
+
+    @Override
     protected void initExtraButtonClickListener() {
         getExtraButton().get(0).addClickListener(clickEvent -> {
             getPresenter().getNavigationManager().navigateToChild(
@@ -153,6 +158,5 @@ public class AdminUserView extends AbstractView<UserEntity, AdminUserViewDesign,
                     getPresenter().getSelectedItem().getEntityId());
         });
     }
-
 
 }

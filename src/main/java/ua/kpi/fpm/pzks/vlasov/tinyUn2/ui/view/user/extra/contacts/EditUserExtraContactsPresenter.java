@@ -27,6 +27,15 @@ public class EditUserExtraContactsPresenter extends AbstractPresenter<
                 UserExtraContactsEntity.class,
                 editUserExtraContactsDataProvider,
                 beanFactory);
+
+        if(navigationManager.getCurrentEntityId()== -1){
+            editUserExtraContactsDataProvider.setChild(false);
+        }else{
+            editUserExtraContactsDataProvider.setChild(true);
+            editUserExtraContactsDataProvider.setFatherId(navigationManager.getCurrentEntityId());
+        }
+
+
     }
 
     @Override

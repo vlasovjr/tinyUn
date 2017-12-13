@@ -23,6 +23,7 @@ public class EditUserExtraContactsViewDesign extends VerticalLayout {
     protected Grid<ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserExtraContactsEntity> list;
     protected VerticalLayout tmp_form1;
     protected Button add;
+    protected Button getBackward;
     protected VerticalLayout form;
     protected TextField type;
     protected TextField contact;
