@@ -1,13 +1,12 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.components;
 
-import java.util.Arrays;
-import java.util.List;
-
-import org.vaadin.dialogs.DefaultConfirmDialogFactory;
-
 import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.themes.ValoTheme;
+import org.vaadin.dialogs.DefaultConfirmDialogFactory;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * Singleton factory for creating the "are you sure"-type confirmation dialogs

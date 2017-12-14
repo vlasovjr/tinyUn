@@ -20,7 +20,7 @@ public class StudentGroupInfoEntity {
     private int curatorId;
     private Collection<CourseSemesterUnitGroupEntity> courseSemesterUnitGroupsById;
     private Collection<StudentEntity> studentsById;
-    private DepartmentEntity departmentByDepartmentId;
+    //private DepartmentEntity departmentByDepartmentId;
     private StudentEntity studentByStarostaId;
 
     @Id
@@ -164,15 +164,15 @@ public class StudentGroupInfoEntity {
         this.studentsById = studentsById;
     }
 
-    @ManyToOne
-    @JoinColumn(name = "department_id", referencedColumnName = "id", nullable = false)
-    public DepartmentEntity getDepartmentByDepartmentId() {
-        return departmentByDepartmentId;
-    }
+  //  @ManyToOne
+   // @JoinColumn(name = "department_id", referencedColumnName = "id", nullable = false)
+    //public DepartmentEntity getDepartmentByDepartmentId() {
+    //    return departmentByDepartmentId;
+   // }
 
-    public void setDepartmentByDepartmentId(DepartmentEntity departmentByDepartmentId) {
-        this.departmentByDepartmentId = departmentByDepartmentId;
-    }
+  //  public void setDepartmentByDepartmentId(DepartmentEntity departmentByDepartmentId) {
+  //      this.departmentByDepartmentId = departmentByDepartmentId;
+   // }
 
     @ManyToOne
     @JoinColumn(name = "starosta_id", referencedColumnName = "id", nullable = false)

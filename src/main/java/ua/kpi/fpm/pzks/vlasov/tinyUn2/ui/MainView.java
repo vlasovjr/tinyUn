@@ -8,15 +8,14 @@ import com.vaadin.spring.annotation.SpringViewDisplay;
 import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.UI;
-
 import org.springframework.beans.factory.annotation.Autowired;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.AdminUserView;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.UniversityListEditView;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
 import java.util.Map;
-
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.AdminUserView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.product.ProductAdminView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.UserAdminView;
 //import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.dashboard.DashboardView;
@@ -41,6 +40,7 @@ public class MainView extends MainViewDesign implements ViewDisplay{
         //attachNavigation(storefront, StorefrontView.class);
         //attachNavigation(dashboard, DashboardView.class);
         attachNavigation(usersControlPanel, AdminUserView.class);
+        attachNavigation(universityControlPanel, UniversityListEditView.class);
         //attachNavigation(products, ProductAdminView.class);
 
         logout.addClickListener(e -> logout());

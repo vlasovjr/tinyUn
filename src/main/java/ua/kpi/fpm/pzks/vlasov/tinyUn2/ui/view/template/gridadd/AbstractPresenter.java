@@ -6,7 +6,6 @@ import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.Notification;
 import lombok.Getter;
-import lombok.Setter;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.dao.OptimisticLockingFailureException;
@@ -28,6 +27,7 @@ public abstract class AbstractPresenter<
         V extends AbstractView> //View
         implements HasLogger, Serializable{
 
+    @Getter
     private final NavigationManager navigationManager;
     @Getter private final S service;
     @Getter private final Class<E> entityType;
@@ -297,6 +297,14 @@ public abstract class AbstractPresenter<
             editItem(entity);
         }, () -> {
         });
+    }
+
+    public void backwardClicked(){
+        navigationManager.navigateToBackward();
+    }
+
+    public E getSelectedItem(){
+        return editItem;
     }
 
     protected void filterGrid(String filter) {

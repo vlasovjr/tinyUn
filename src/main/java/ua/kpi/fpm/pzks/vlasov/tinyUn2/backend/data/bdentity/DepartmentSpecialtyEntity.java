@@ -11,7 +11,7 @@ public class DepartmentSpecialtyEntity {
     private int departmentId;
     private Integer number;
     private String name;
-    private DepartmentEntity departmentByDepartmentId;
+   // private DepartmentEntity departmentByDepartmentId;
     private Collection<StudentTranscriptInfoEntity> studentTranscriptInfosById;
 
     @Id
@@ -70,7 +70,7 @@ public class DepartmentSpecialtyEntity {
 
         return Objects.hash(id, departmentId, number, name);
     }
-
+/*
     @ManyToOne
     @JoinColumn(name = "department_id", referencedColumnName = "id", nullable = false)
     public DepartmentEntity getDepartmentByDepartmentId() {
@@ -80,7 +80,7 @@ public class DepartmentSpecialtyEntity {
     public void setDepartmentByDepartmentId(DepartmentEntity departmentByDepartmentId) {
         this.departmentByDepartmentId = departmentByDepartmentId;
     }
-
+//*/
     @OneToMany(mappedBy = "departmentSpecialtyByDepartmentSpecialtyId")
     public Collection<StudentTranscriptInfoEntity> getStudentTranscriptInfosById() {
         return studentTranscriptInfosById;

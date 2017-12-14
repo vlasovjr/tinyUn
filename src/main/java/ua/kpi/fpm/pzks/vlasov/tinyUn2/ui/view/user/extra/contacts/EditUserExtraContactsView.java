@@ -1,6 +1,5 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts;
 
-
 import com.vaadin.data.BeanValidationBinder;
 import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
@@ -16,7 +15,10 @@ import javax.annotation.PostConstruct;
 
 
 @SpringView(name = "EditUserExtraContacts")
-public class EditUserExtraContactsView extends AbstractView<UserExtraContactsEntity, EditUserExtraContactsViewDesign>{
+public class EditUserExtraContactsView extends AbstractView
+        <UserExtraContactsEntity,
+        EditUserExtraContactsViewDesign,
+        EditUserExtraContactsPresenter>{
 
     //tmp
     @Override
@@ -79,15 +81,29 @@ public class EditUserExtraContactsView extends AbstractView<UserExtraContactsEnt
     }
 
     @Override
+    protected Button getBackward() {
+        return getViewComponent().getBackward;
+    }
+
+    @Override
+    protected void initExtraButton() {
+        getExtraButton().clear();
+    }
+
+    @Override
+    protected void initExtraButtonClickListener() {
+
+    }
+
+    @Override
     public void bindFormFields(BeanValidationBinder<UserExtraContactsEntity> binder) {
         binder.bindInstanceFields(getViewComponent());
     }
 
+    //временно нету
     @Override
     protected TextField getSearch() {
         return null;// getViewComponent().search;
     }
-
-    //переопределение абстрактных методов
 
 }

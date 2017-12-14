@@ -1,11 +1,10 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.components;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
-import org.vaadin.dialogs.ConfirmDialog;
 import com.vaadin.navigator.View;
-import org.vaadin.spring.annotation.PrototypeScope;
 import com.vaadin.spring.annotation.SpringComponent;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.vaadin.dialogs.ConfirmDialog;
+import org.vaadin.spring.annotation.PrototypeScope;
 
 @SpringComponent
 @PrototypeScope

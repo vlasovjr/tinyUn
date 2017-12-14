@@ -1,6 +1,5 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity;
 
-import javax.persistence.Entity;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.Transient;
 import java.io.Serializable;

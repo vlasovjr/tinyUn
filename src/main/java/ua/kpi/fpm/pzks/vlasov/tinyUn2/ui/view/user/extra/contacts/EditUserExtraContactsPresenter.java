@@ -9,8 +9,6 @@ import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserExtraContactsService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractPresenter;
 
-import java.util.Map;
-
 @SpringComponent
 @ViewScope
 public class EditUserExtraContactsPresenter extends AbstractPresenter<
@@ -29,11 +27,19 @@ public class EditUserExtraContactsPresenter extends AbstractPresenter<
                 UserExtraContactsEntity.class,
                 editUserExtraContactsDataProvider,
                 beanFactory);
+
+        if(navigationManager.getCurrentEntityId()== -1){
+            editUserExtraContactsDataProvider.setChild(false);
+        }else{
+            editUserExtraContactsDataProvider.setChild(true);
+            editUserExtraContactsDataProvider.setFatherId(navigationManager.getCurrentEntityId());
+        }
+
+
     }
 
     @Override
     protected void editItem(UserExtraContactsEntity item){
         super.editItem(item);
-        //
     }
 }

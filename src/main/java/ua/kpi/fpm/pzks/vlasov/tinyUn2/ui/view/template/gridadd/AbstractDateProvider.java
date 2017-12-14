@@ -11,7 +11,6 @@ import org.vaadin.artur.spring.dataprovider.FilterablePageableDataProvider;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.BasicEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.DAO;
 
-import javax.swing.text.html.parser.Entity;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,14 +22,15 @@ public abstract class AbstractDateProvider<E extends BasicEntity, S extends DAO<
 
     @Getter
     @Setter
-    private boolean isChild;
+    private boolean isChild = false;
 
     @Setter
     @Getter
-    private int fatherId;
+    private int fatherId = -1;
 
     @Override
     protected Page<E> fetchFromBackEnd(Query<E, Object> query, Pageable pageable) {
+        System.out.println("gate page" + isChild + " "+fatherId);
         if(isChild)
             return getService().findAnyMatching(getOptionalFilter(), pageable,getDefaultColumnName(),getFatherId());
         else
