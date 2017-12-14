@@ -9,6 +9,7 @@ import com.vaadin.ui.TextField;
 import org.springframework.beans.factory.annotation.Autowired;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.DepartmentEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty.department.controlpanel.DepartmentControlPanelPrototypeView;
 
 import javax.annotation.PostConstruct;
 
@@ -78,11 +79,16 @@ public class DepartmentListEditView extends AbstractView
     @Override
     protected void initExtraButton() {
         getExtraButton().clear();
+        getExtraButton().add(getViewComponent().edit);
     }
 
     @Override
     protected void initExtraButtonClickListener() {
-
+        getExtraButton().get(0).addClickListener(event ->{
+            getPresenter().getNavigationManager().navigateToChild(
+                    DepartmentControlPanelPrototypeView.class,
+                    getPresenter().getSelectedItem().getEntityId());
+        });
     }
 
     @Override

@@ -19,6 +19,9 @@ import javax.persistence.Entity;
         UniversityService.class,
         DepartmentService.class,
         FacultyService.class,
+        StudentGroupInfoService.class,
+        StudentService.class,
+        StudentTranscriptFieldService.class,
         SecurityConfig.class})
 @EnableEventBus
 public class Application extends SpringBootServletInitializer{

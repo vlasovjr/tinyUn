@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 import javax.persistence.*;
+import java.util.Collection;
 import java.util.Objects;
 
 @ToString
@@ -17,6 +18,8 @@ public class DepartmentEntity extends BasicEntity  {
     private int facultyIdfaculty;
     private String name;
     private FacultyEntity facultyByFacultyIdfaculty;
+    private Collection<StudentGroupInfoEntity> studentGroupInfosByIddepartment;
+
 
     @Id
     @GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -73,6 +76,15 @@ public class DepartmentEntity extends BasicEntity  {
 
     public void setFacultyByFacultyIdfaculty(FacultyEntity facultyByFacultyIdfaculty) {
         this.facultyByFacultyIdfaculty = facultyByFacultyIdfaculty;
+    }
+
+    @OneToMany(mappedBy = "departmentByDepartmentIddepartment", fetch = FetchType.EAGER)
+    public Collection<StudentGroupInfoEntity> getStudentGroupInfosByIddepartment() {
+        return studentGroupInfosByIddepartment;
+    }
+
+    public void setStudentGroupInfosByIddepartment(Collection<StudentGroupInfoEntity> studentGroupInfosByIddepartment) {
+        this.studentGroupInfosByIddepartment = studentGroupInfosByIddepartment;
     }
 
     @Transient

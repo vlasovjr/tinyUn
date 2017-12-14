@@ -3,6 +3,8 @@ package ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
+import org.hibernate.annotations.LazyCollection;
+import org.hibernate.annotations.LazyCollectionOption;
 
 import javax.persistence.*;
 import java.util.Collection;
@@ -20,6 +22,7 @@ public class UserEntity extends BasicEntity {
     private String role;
     private String firstName;
     private String secondName;
+    private Collection<StudentEntity> studentsByIduser;
     private Collection<UserExtraContactsEntity> userExtraContactsByIduser;
 
     @Id
@@ -102,7 +105,20 @@ public class UserEntity extends BasicEntity {
         return Objects.hash(iduser, login, password, role, firstName, secondName);
     }
 
-    @OneToMany(mappedBy = "userByUserIduser", fetch = FetchType.EAGER)
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "userByUserIduser")// fetch = FetchType.EAGER)
+//    @OneToMany(mappedBy = "userByUserIduser", fetch = FetchType.EAGER)
+    public Collection<StudentEntity> getStudentsByIduser() {
+        return studentsByIduser;
+    }
+
+    public void setStudentsByIduser(Collection<StudentEntity> studentsByIduser) {
+        this.studentsByIduser = studentsByIduser;
+    }
+
+    @LazyCollection(LazyCollectionOption.FALSE)
+    @OneToMany(mappedBy = "userByUserIduser")// fetch = FetchType.EAGER)
+//    @OneToMany(mappedBy = "userByUserIduser", fetch = FetchType.EAGER)
     public Collection<UserExtraContactsEntity> getUserExtraContactsByIduser() {
         return userExtraContactsByIduser;
     }

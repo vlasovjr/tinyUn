@@ -90,6 +90,7 @@ public class NavigationManager extends SpringNavigator {
     public void navigateToChild(Class<? extends View> targetView, int entityId){
         this.backward = this.getState();
         this.entityId = entityId;
+        System.out.println("\n\n\n\t\tALLERT\n"+entityId+"\n\n");
         String viewId = getViewId(targetView);
         navigateTo(viewId + "/");
     }

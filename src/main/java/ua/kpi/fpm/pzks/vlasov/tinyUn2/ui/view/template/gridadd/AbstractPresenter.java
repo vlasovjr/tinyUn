@@ -51,12 +51,14 @@ public abstract class AbstractPresenter<
                                 BeanFactory beanFactory){
         this.service = service;
         this.navigationManager = navigationManager;
+/*
 
         Map m =  navigationManager.getStateParameterMap("&");
         m.forEach((a,b) -> {
             System.out.println(a+" = "+b);
             fatherId = Integer.valueOf(a.toString());
         });
+*/
 
 
         this.entityType = entityType;
@@ -181,6 +183,7 @@ public abstract class AbstractPresenter<
     private E createEntity() {
         try {
             E entity = getEntityType().newInstance();
+            fatherId = navigationManager.getCurrentEntityId();
             System.out.println("fatherid = " + fatherId);
             entity.setFatherId(fatherId);
             return entity;
