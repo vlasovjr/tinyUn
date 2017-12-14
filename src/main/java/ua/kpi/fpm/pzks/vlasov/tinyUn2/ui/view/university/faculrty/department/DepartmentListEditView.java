@@ -1,4 +1,4 @@
-package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty;
+package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty.department;
 
 import com.vaadin.data.BeanValidationBinder;
 import com.vaadin.spring.annotation.SpringView;
@@ -7,21 +7,20 @@ import com.vaadin.ui.Component;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.TextField;
 import org.springframework.beans.factory.annotation.Autowired;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.FacultyEntity;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.DepartmentEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty.department.DepartmentListEditView;
 
 import javax.annotation.PostConstruct;
 
-@SpringView(name = "FacultyListEdit")
-public class FacultyListEditView extends AbstractView
-        <FacultyEntity,
-        FacultyListEditViewDesign,
-        FacultyListEditPresenter>{
+@SpringView(name = "DepartmentListEdit")
+public class DepartmentListEditView extends AbstractView
+        <DepartmentEntity,
+        DepartmentListEditViewDesign,
+        DepartmentListEditPresenter> {
 
     @Autowired
-    public FacultyListEditView(FacultyListEditPresenter presenter){
-        setDesign(new FacultyListEditViewDesign());
+    public DepartmentListEditView(DepartmentListEditPresenter presenter){
+        setDesign(new DepartmentListEditViewDesign());
         setPresenter(presenter);
     }
 
@@ -32,12 +31,12 @@ public class FacultyListEditView extends AbstractView
     }
 
     @Override
-    protected Grid<FacultyEntity> getGrid() {
+    protected Grid<DepartmentEntity> getGrid() {
         return getViewComponent().list;
     }
 
     @Override
-    protected void setGrid(Grid<FacultyEntity> grid) {
+    protected void setGrid(Grid<DepartmentEntity> grid) {
         getViewComponent().list = grid;
     }
 
@@ -79,16 +78,11 @@ public class FacultyListEditView extends AbstractView
     @Override
     protected void initExtraButton() {
         getExtraButton().clear();
-        getExtraButton().add(getViewComponent().edit);
     }
 
     @Override
     protected void initExtraButtonClickListener() {
-        getExtraButton().get(0).addClickListener(event ->{
-           getPresenter().getNavigationManager().navigateToChild(
-                   DepartmentListEditView.class,
-                   getPresenter().getSelectedItem().getEntityId());
-        });
+
     }
 
     @Override
@@ -97,7 +91,7 @@ public class FacultyListEditView extends AbstractView
     }
 
     @Override
-    public void bindFormFields(BeanValidationBinder<FacultyEntity> binder) {
+    public void bindFormFields(BeanValidationBinder<DepartmentEntity> binder) {
         binder.bindInstanceFields(getViewComponent());
     }
 }

@@ -30,7 +30,7 @@ public class UniversityEntity extends BasicEntity {
     }
 
     @Basic
-    @Column(name = "name", nullable = false, length = 45)
+    @Column(name = "name", nullable = false, length = 100)
     public String getName() {
         return name;
     }
