@@ -5,129 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="068a5d34-f34f-4a5b-b450-742c054886eb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentGroupInfoEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentTranscriptFieldEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentGroupInfoService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentTranscriptFieldService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/util/LocalDatePersistenceConverter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/controlpanel/DepartmentControlPanelPrototypeView.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/controlpanel/DepartmentControlPanelPrototypeViewDesign.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditPresenter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditView.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditViewDesigner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/controlpanel/DepartmentControlPanelPrototypeViewDesign.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditViewDesigner.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/db.sql" afterPath="$PROJECT_DIR$/db.sql" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/Application.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/Role.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/Role.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomContentEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomInfoEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomTypesEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterInfoEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterRequiredEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterUnitGroupEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterUnitReaderEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseTimetableSlotEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseTimetableTmpChangesEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/DepartmentSpecialtyEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirInDirEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirInfoEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirItemEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileUnitEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonCalendarEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHomeworkEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHomeworkStudentMarkEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHwFromStudentEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonStudentMarkEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonVisitLogEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChanelEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChannelLetterEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChannelMembersEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomLetterEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomMembersEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgDescriptionPullEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgLetterBodyPullEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgLetterEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationStudentLessonEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationStudentTranscriptEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationTeacherLessonEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentGroupInfoEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentTranscriptFieldEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentTranscriptInfoEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TblNotificationMsgLetterEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TeacherAcademicTitlesEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TeacherEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/UserAccountOldEntity.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UserEntity.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditView.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditView.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" afterPath="$PROJECT_DIR$/src/main/resources/banner.txt" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditViewDesign.html" afterPath="$PROJECT_DIR$/src/main/resources/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditViewDesign.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" afterPath="$PROJECT_DIR$/target/classes/banner.txt" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/Application.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/Application.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/Role.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/Role.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomContentEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomInfoEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/ClassroomTypesEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterInfoEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterRequiredEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterUnitGroupEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterUnitReaderEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseTimetableSlotEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseTimetableTmpChangesEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/DepartmentSpecialtyEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirInDirEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirInfoEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileDirItemEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/FileUnitEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonCalendarEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHomeworkEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHomeworkStudentMarkEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonHwFromStudentEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonStudentMarkEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/LessonVisitLogEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChanelEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChannelLetterEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChannelMembersEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomLetterEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgChatroomMembersEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgDescriptionPullEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgLetterBodyPullEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/MsgLetterEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationStudentLessonEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationStudentTranscriptEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationTeacherLessonEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentGroupInfoEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentTranscriptFieldEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/StudentTranscriptInfoEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TblNotificationMsgLetterEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TeacherAcademicTitlesEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/TeacherEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/UserAccountOldEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UserEntity.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UserEntity.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/navigation/NavigationManager.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditView.class" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditView.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditViewDesign.html" afterPath="$PROJECT_DIR$/target/classes/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditViewDesign.html" />
-      <change beforePath="$PROJECT_DIR$/tinyUnDB.mwb" afterPath="$PROJECT_DIR$/tinyUnDB.mwb" />
-      <change beforePath="$PROJECT_DIR$/tinyUnDB.mwb.bak" afterPath="$PROJECT_DIR$/tinyUnDB.mwb.bak" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java" afterPath="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -152,46 +32,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractDateProvider.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.java">
+      <file leaf-file-name="StudentGroupListEditDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="42" column="76" lean-forward="false" selection-start-line="42" selection-start-column="76" selection-end-line="42" selection-end-column="76" />
+            <state relative-caret-position="374">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#777#778#0" expanded="true" />
+                <element signature="e#812#813#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacultyListEditDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentGroupListEditView.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditView.java">
+      <file leaf-file-name="UniversityListEditDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-561">
-              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="119">
+              <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversityEntity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UniversityEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentListEditDataProvider.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1460#1461#0" expanded="true" />
-                <element signature="e#1506#1507#0" expanded="true" />
-                <element signature="e#1577#1578#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
-                <element signature="e#1674#1675#0" expanded="true" />
-                <element signature="e#1720#1721#0" expanded="true" />
-                <element signature="e#1767#1768#0" expanded="true" />
-                <element signature="e#1812#1813#0" expanded="true" />
-                <element signature="e#1862#1863#0" expanded="true" />
-                <element signature="e#1910#1911#0" expanded="true" />
-                <element signature="e#1960#1961#0" expanded="true" />
-                <element signature="e#2008#2009#0" expanded="true" />
-                <element signature="e#2058#2059#0" expanded="true" />
-                <element signature="e#2106#2107#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
-                <element signature="e#2266#2267#0" expanded="true" />
-                <element signature="e#2311#2312#0" expanded="true" />
-                <element signature="e#2438#2439#0" expanded="true" />
-                <element signature="e#2486#2487#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepartmentEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FacultyEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/FacultyEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UniversityListEditPresenter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -249,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/MainView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditViewPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDateProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditView.java" />
@@ -290,8 +213,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/controlpanel/DepartmentControlPanelPrototypeView.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditView.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditView.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditViewDesigner.html" />
@@ -300,6 +221,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractPresenter.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentGroupInfoEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/util/LocalDatePersistenceConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java" />
       </list>
     </option>
   </component>
@@ -491,6 +415,29 @@
               <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tinyUn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tinyUn" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tinyUn2" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tinyUn" type="b2602c69:ProjectViewProjectNode" />
@@ -868,16 +815,15 @@
       <workItem from="1513133721167" duration="35972000" />
       <workItem from="1513177139712" duration="5941000" />
       <workItem from="1513185720765" duration="27086000" />
-      <workItem from="1513215987707" duration="20291000" />
+      <workItem from="1513215987707" duration="20726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144215000" />
+    <option name="totallyTimeSpent" value="144650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1873" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -901,7 +847,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32322118" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32322118" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -979,44 +925,6 @@
     <option name="serverPort" value="60700" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentGroupInfoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/NotificationTeacherLessonEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="4" selection-end-line="118" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/StudentTranscriptFieldService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/bdentity/CourseSemesterInfoEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -1160,24 +1068,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/app/security/RedirectAuthenticationSuccessHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1212,26 +1102,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditViewDesigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1268,28 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="80" column="63" lean-forward="false" selection-start-line="80" selection-start-column="63" selection-end-line="80" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#873#874#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditPresenter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -1297,14 +1149,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1391,16 +1235,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentGroupInfoEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="73" column="10" lean-forward="false" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/template/gridadd/AbstractDateProvider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1411,7 +1245,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
+        <state relative-caret-position="680">
           <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1438,6 +1272,112 @@
             <element signature="e#2438#2439#0" expanded="true" />
             <element signature="e#2486#2487#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/service/DepartmentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/StudentGroupInfoEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditViewDesigner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="22" column="33" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/student/group/StudentGroupListEditDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#777#778#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/DepartmentEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/admin/user/AdminUserDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="4" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/FacultyEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/department/DepartmentListEditDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="22" column="32" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/faculrty/FacultyListEditDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="22" column="38" lean-forward="false" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="21" column="39" lean-forward="false" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/ui/view/university/UniversityListEditDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/kpi/fpm/pzks/vlasov/tinyUn2/backend/data/entity/UniversityEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

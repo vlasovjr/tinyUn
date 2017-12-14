@@ -20,6 +20,6 @@ public class DepartmentListEditDataProvider extends AbstractDateProvider
 
     @Override
     protected String getDefaultColumnName() {
-        return "iddepartment";
+        return "facultyIdfaculty";
     }
 }

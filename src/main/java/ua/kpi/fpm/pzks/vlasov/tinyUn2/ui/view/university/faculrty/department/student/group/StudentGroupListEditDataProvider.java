@@ -20,6 +20,6 @@ public class StudentGroupListEditDataProvider extends AbstractDateProvider
 
     @Override
     protected String getDefaultColumnName() {
-        return "idstudentGroupInfo";
+        return "departmentIddepartment";
     }
 }
