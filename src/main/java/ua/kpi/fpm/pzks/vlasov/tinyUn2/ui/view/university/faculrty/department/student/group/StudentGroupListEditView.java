@@ -77,6 +77,11 @@ public class StudentGroupListEditView extends AbstractView
     }
 
     @Override
+    protected void doubleClickOnGridEvent() {
+
+    }
+
+    @Override
     protected void initExtraButton() {
         this.getExtraButton().clear();
     }

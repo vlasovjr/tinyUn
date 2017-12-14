@@ -151,6 +151,13 @@ public class AdminUserView extends AbstractView<UserEntity, AdminUserViewDesign,
     }
 
     @Override
+    protected void doubleClickOnGridEvent() {
+        getPresenter().getNavigationManager().navigateToChild(
+                EditUserExtraContactsView.class,
+                getPresenter().getSelectedItem().getEntityId());
+    }
+
+    @Override
     protected void initExtraButtonClickListener() {
         getExtraButton().get(0).addClickListener(clickEvent -> {
             getPresenter().getNavigationManager().navigateToChild(

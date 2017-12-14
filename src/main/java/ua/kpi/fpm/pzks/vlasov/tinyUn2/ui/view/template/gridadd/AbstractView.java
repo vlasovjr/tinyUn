@@ -10,6 +10,7 @@ import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.TextField;
+import com.vaadin.ui.components.grid.ItemClickListener;
 import com.vaadin.ui.components.grid.SingleSelectionModel;
 import lombok.Getter;
 import lombok.Setter;
@@ -145,6 +146,10 @@ public abstract class AbstractView <
         getAdd().addClickListener(event -> getPresenter().addNewClicked());
         initExtraButtonClickListener();
 
+        getGrid().addItemClickListener( e-> {
+                    if (e.getMouseEventDetails().isDoubleClick())
+                        doubleClickOnGridEvent(); });
+
         if(getBackward()!= null){
             getBackward().addClickListener(event -> getPresenter().backwardClicked());
         }
@@ -186,6 +191,8 @@ public abstract class AbstractView <
     protected abstract Button getCancel();
     protected abstract Button getDelete();
     protected abstract Button getBackward();
+
+    protected abstract void doubleClickOnGridEvent();
 
     protected abstract void initExtraButton();
     protected abstract void initExtraButtonClickListener();

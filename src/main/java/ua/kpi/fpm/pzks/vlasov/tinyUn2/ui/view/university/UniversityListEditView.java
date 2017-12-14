@@ -77,6 +77,13 @@ public class UniversityListEditView extends AbstractView
     }
 
     @Override
+    protected void doubleClickOnGridEvent() {
+        getPresenter().getNavigationManager().navigateToChild(
+                FacultyListEditView.class,
+                getPresenter().getSelectedItem().getEntityId());
+    }
+
+    @Override
     protected void initExtraButton() {
         getExtraButton().clear();
         getExtraButton().add(getViewComponent().edit);

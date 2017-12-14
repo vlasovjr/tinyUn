@@ -86,6 +86,11 @@ public class EditUserExtraContactsView extends AbstractView
     }
 
     @Override
+    protected void doubleClickOnGridEvent() {
+
+    }
+
+    @Override
     protected void initExtraButton() {
         getExtraButton().clear();
     }
