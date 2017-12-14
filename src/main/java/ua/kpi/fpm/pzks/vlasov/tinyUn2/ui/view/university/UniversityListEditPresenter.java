@@ -4,7 +4,6 @@ import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.spring.annotation.ViewScope;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.vaadin.artur.spring.dataprovider.FilterablePageableDataProvider;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UniversityEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UniversityService;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
@@ -20,7 +19,7 @@ public class UniversityListEditPresenter extends AbstractPresenter
     @Autowired
     public UniversityListEditPresenter(NavigationManager navigationManager,
                                        UniversityService service,
-                                       UniversityDataProvider dataProvider,
+                                       UniversityListEditDataProvider dataProvider,
                                        BeanFactory beanFactory) {
 
         super(

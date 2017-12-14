@@ -84,6 +84,6 @@ public class DepartmentEntity extends BasicEntity  {
     @Transient
     @Override
     public void setFatherId(int id) {
-
+        facultyIdfaculty = id;
     }
 }

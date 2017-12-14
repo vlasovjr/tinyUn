@@ -9,11 +9,11 @@ import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractDateProvi
 
 @SpringComponent
 @PrototypeScope
-public class UniversityDataProvider extends AbstractDateProvider
+public class UniversityListEditDataProvider extends AbstractDateProvider
         <UniversityEntity, UniversityService>{
 
     @Autowired
-    public UniversityDataProvider(UniversityService service){
+    public UniversityListEditDataProvider(UniversityService service){
         setService(service);
     }
 

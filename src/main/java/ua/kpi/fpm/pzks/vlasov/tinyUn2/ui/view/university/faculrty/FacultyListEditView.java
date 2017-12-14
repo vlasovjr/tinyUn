@@ -1,4 +1,4 @@
-package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university;
+package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty;
 
 import com.vaadin.data.BeanValidationBinder;
 import com.vaadin.spring.annotation.SpringView;
@@ -7,21 +7,20 @@ import com.vaadin.ui.Component;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.TextField;
 import org.springframework.beans.factory.annotation.Autowired;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UniversityEntity;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.FacultyEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.faculrty.FacultyListEditView;
 
 import javax.annotation.PostConstruct;
 
-@SpringView(name = "UniversityListEdit")
-public class UniversityListEditView extends AbstractView
-        <UniversityEntity,
-        UniversityListEditViewDesign,
-        UniversityListEditPresenter>{
+@SpringView(name = "FacultyListEdit")
+public class FacultyListEditView extends AbstractView
+        <FacultyEntity,
+        FacultyListEditViewDesign,
+        FacultyListEditPresenter>{
 
     @Autowired
-    public UniversityListEditView(UniversityListEditPresenter presenter){
-        setDesign(new UniversityListEditViewDesign());
+    public FacultyListEditView(FacultyListEditPresenter presenter){
+        setDesign(new FacultyListEditViewDesign());
         setPresenter(presenter);
     }
 
@@ -32,12 +31,12 @@ public class UniversityListEditView extends AbstractView
     }
 
     @Override
-    protected Grid<UniversityEntity> getGrid() {
+    protected Grid<FacultyEntity> getGrid() {
         return getViewComponent().list;
     }
 
     @Override
-    protected void setGrid(Grid<UniversityEntity> grid) {
+    protected void setGrid(Grid<FacultyEntity> grid) {
         getViewComponent().list = grid;
     }
 
@@ -73,22 +72,17 @@ public class UniversityListEditView extends AbstractView
 
     @Override
     protected Button getBackward() {
-        return null;
+        return getViewComponent().backwardPage;
     }
 
     @Override
     protected void initExtraButton() {
-        getExtraButton().clear();
-        getExtraButton().add(getViewComponent().edit);
+
     }
 
     @Override
     protected void initExtraButtonClickListener() {
-        getExtraButton().get(0).addClickListener(clickEvent -> {
-           getPresenter().getNavigationManager().navigateToChild(
-                   FacultyListEditView.class,
-                   getPresenter().getSelectedItem().getEntityId());
-        });
+
     }
 
     @Override
@@ -97,7 +91,7 @@ public class UniversityListEditView extends AbstractView
     }
 
     @Override
-    public void bindFormFields(BeanValidationBinder<UniversityEntity> binder) {
+    public void bindFormFields(BeanValidationBinder<FacultyEntity> binder) {
         binder.bindInstanceFields(getViewComponent());
     }
 }
