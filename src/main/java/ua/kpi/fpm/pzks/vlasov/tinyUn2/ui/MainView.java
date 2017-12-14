@@ -11,6 +11,7 @@ import com.vaadin.ui.UI;
 import org.springframework.beans.factory.annotation.Autowired;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.navigation.NavigationManager;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.admin.user.AdminUserView;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university.UniversityListEditView;
 
 import javax.annotation.PostConstruct;
 import java.util.HashMap;
@@ -39,6 +40,7 @@ public class MainView extends MainViewDesign implements ViewDisplay{
         //attachNavigation(storefront, StorefrontView.class);
         //attachNavigation(dashboard, DashboardView.class);
         attachNavigation(usersControlPanel, AdminUserView.class);
+        attachNavigation(universityControlPanel, UniversityListEditView.class);
         //attachNavigation(products, ProductAdminView.class);
 
         logout.addClickListener(e -> logout());

@@ -1,58 +1,48 @@
-package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts;
+package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.university;
 
 import com.vaadin.data.BeanValidationBinder;
-import com.vaadin.navigator.ViewChangeListener.ViewChangeEvent;
 import com.vaadin.spring.annotation.SpringView;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
 import com.vaadin.ui.Grid;
 import com.vaadin.ui.TextField;
 import org.springframework.beans.factory.annotation.Autowired;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UserExtraContactsEntity;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.data.entity.UniversityEntity;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.template.gridadd.AbstractView;
 
 import javax.annotation.PostConstruct;
 
-
-@SpringView(name = "EditUserExtraContacts")
-public class EditUserExtraContactsView extends AbstractView
-        <UserExtraContactsEntity,
-        EditUserExtraContactsViewDesign,
-        EditUserExtraContactsPresenter>{
-
-    //tmp
-    @Override
-    public void enter(ViewChangeEvent event) {
-        String s = event.getParameters();
-        System.out.println("\n\n" + s + "\n\n");
-       // getDesign().test.setValue(s);
-    }
+@SpringView(name = "UniversityListEdit")
+public class UniversityListEditView extends AbstractView
+        <UniversityEntity,
+        UniversityListEditViewDesign,
+        UniversityListEditPresenter>{
 
     @Autowired
-    public EditUserExtraContactsView(EditUserExtraContactsPresenter presenter){
-        setDesign(new EditUserExtraContactsViewDesign());
+    public UniversityListEditView(UniversityListEditPresenter presenter){
+        setDesign(new UniversityListEditViewDesign());
         setPresenter(presenter);
     }
 
     @PostConstruct
     private void init(){
         getPresenter().init(this);
-        getGrid().setColumns("type","contact","visibility");
+        getGrid().setColumns("name");
     }
 
     @Override
-    protected Grid<UserExtraContactsEntity> getGrid() {
+    protected Grid<UniversityEntity> getGrid() {
         return getViewComponent().list;
     }
 
     @Override
-    protected void setGrid(Grid<UserExtraContactsEntity> grid) {
+    protected void setGrid(Grid<UniversityEntity> grid) {
         getViewComponent().list = grid;
     }
 
     @Override
     protected Component.Focusable getFirstFormField() {
-        return getViewComponent().type;
+        return getViewComponent().name;
     }
 
     @Override
@@ -82,12 +72,12 @@ public class EditUserExtraContactsView extends AbstractView
 
     @Override
     protected Button getBackward() {
-        return getViewComponent().getBackward;
+        return null;
     }
 
     @Override
     protected void initExtraButton() {
-        getExtraButton().clear();
+
     }
 
     @Override
@@ -96,14 +86,12 @@ public class EditUserExtraContactsView extends AbstractView
     }
 
     @Override
-    public void bindFormFields(BeanValidationBinder<UserExtraContactsEntity> binder) {
+    protected TextField getSearch() {
+        return getViewComponent().search;
+    }
+
+    @Override
+    public void bindFormFields(BeanValidationBinder<UniversityEntity> binder) {
         binder.bindInstanceFields(getViewComponent());
     }
-
-    //временно нету
-    @Override
-    protected TextField getSearch() {
-        return null;// getViewComponent().search;
-    }
-
 }

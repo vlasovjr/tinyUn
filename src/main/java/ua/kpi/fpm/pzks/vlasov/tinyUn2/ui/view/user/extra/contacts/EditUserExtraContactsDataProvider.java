@@ -1,6 +1,5 @@
 package ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.view.user.extra.contacts;
 
-
 import com.vaadin.spring.annotation.SpringComponent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.vaadin.spring.annotation.PrototypeScope;

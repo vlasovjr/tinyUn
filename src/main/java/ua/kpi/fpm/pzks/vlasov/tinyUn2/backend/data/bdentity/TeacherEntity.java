@@ -13,7 +13,7 @@ public class TeacherEntity {
     private Collection<CourseSemesterUnitReaderEntity> courseSemesterUnitReadersById;
     private Collection<StudentTranscriptFieldEntity> studentTranscriptFieldsById;
     private UserAccountOldEntity userAccountOldByUserId;
-    private DepartmentEntity departmentByDepartmentId;
+    //private DepartmentEntity departmentByDepartmentId;
     private Collection<TeacherAcademicTitlesEntity> teacherAcademicTitlesById;
 
     @Id
@@ -89,7 +89,7 @@ public class TeacherEntity {
     public void setUserAccountOldByUserId(UserAccountOldEntity userAccountOldByUserId) {
         this.userAccountOldByUserId = userAccountOldByUserId;
     }
-
+/*
     @ManyToOne
     @JoinColumn(name = "department_id", referencedColumnName = "id", nullable = false)
     public DepartmentEntity getDepartmentByDepartmentId() {
@@ -99,7 +99,7 @@ public class TeacherEntity {
     public void setDepartmentByDepartmentId(DepartmentEntity departmentByDepartmentId) {
         this.departmentByDepartmentId = departmentByDepartmentId;
     }
-
+//*/
     @OneToMany(mappedBy = "teacherByTeacherId")
     public Collection<TeacherAcademicTitlesEntity> getTeacherAcademicTitlesById() {
         return teacherAcademicTitlesById;

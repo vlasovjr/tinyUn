@@ -44,7 +44,7 @@ public class UserEntity extends BasicEntity {
     }
 
     @Basic
-    @Column(name = "password", nullable = false, length = 20)
+    @Column(name = "password", nullable = false, length = 60)
     public String getPassword() {
         return password;
     }
@@ -54,7 +54,7 @@ public class UserEntity extends BasicEntity {
     }
 
     @Basic
-    @Column(name = "role", nullable = false)
+    @Column(name = "role", nullable = false, length = 10)
     public String getRole() {
         return role;
     }

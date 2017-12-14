@@ -20,7 +20,7 @@ public class CourseSemesterInfoEntity {
     private Integer amountLaboratory;
     private Integer fileDirInfoId;
     private CourseEntity courseByCourseId;
-    private DepartmentEntity departmentByDepartmentId;
+    //private DepartmentEntity departmentByDepartmentId;
     private FileDirInfoEntity fileDirInfoByFileDirInfoId;
     private Collection<CourseSemesterRequiredEntity> courseSemesterRequiredsById;
     private Collection<CourseSemesterUnitReaderEntity> courseSemesterUnitReadersById;
@@ -180,7 +180,7 @@ public class CourseSemesterInfoEntity {
     public void setCourseByCourseId(CourseEntity courseByCourseId) {
         this.courseByCourseId = courseByCourseId;
     }
-
+/*
     @ManyToOne
     @JoinColumn(name = "department_id", referencedColumnName = "id", nullable = false)
     public DepartmentEntity getDepartmentByDepartmentId() {
@@ -190,7 +190,7 @@ public class CourseSemesterInfoEntity {
     public void setDepartmentByDepartmentId(DepartmentEntity departmentByDepartmentId) {
         this.departmentByDepartmentId = departmentByDepartmentId;
     }
-
+//*/
     @ManyToOne
     @JoinColumn(name = "file_dir_info_id", referencedColumnName = "id")
     public FileDirInfoEntity getFileDirInfoByFileDirInfoId() {

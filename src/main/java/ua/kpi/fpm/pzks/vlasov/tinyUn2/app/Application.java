@@ -6,8 +6,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 import org.vaadin.spring.events.annotation.EnableEventBus;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.app.security.SecurityConfig;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserExtraContactsService;
-import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.UserService;
+import ua.kpi.fpm.pzks.vlasov.tinyUn2.backend.service.*;
 import ua.kpi.fpm.pzks.vlasov.tinyUn2.ui.AppUI;
 
 import javax.persistence.Entity;
@@ -17,6 +16,9 @@ import javax.persistence.Entity;
         Application.class,
         UserService.class,
         UserExtraContactsService.class,
+        UniversityService.class,
+        DepartmentService.class,
+        FacultyService.class,
         SecurityConfig.class})
 @EnableEventBus
 public class Application extends SpringBootServletInitializer{
